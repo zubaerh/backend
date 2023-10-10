@@ -1,7 +1,7 @@
 import {connect, ConnectOptions} from 'mongoose';
 
 export const dbConnect = () => {
-    connect("mongodb+srv://zubbaerhossain:q4ppCYKcV1nHTLJN@cluster0.x8t1y1j.mongodb.net/foodmine?retryWrites=true&w=majority&appName=AtlasApp", {
+    connect("mongodb+srv://tempuser:Abcd1234@cluster0.8lkqp.mongodb.net/foodmine?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useUnifiedTopology: true
         
